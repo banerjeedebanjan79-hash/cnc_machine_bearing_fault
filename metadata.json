@@ -1,0 +1,5 @@
+{
+  "name": "BearingPulse AI",
+  "description": "A real-time CNC machine bearing fault detection dashboard featuring vibration, temperature, and acoustic monitoring with predictive maintenance alerts.",
+  "requestFramePermissions": []
+}
