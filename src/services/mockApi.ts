@@ -1,6 +1,6 @@
 import { SensorData, MachineStatus } from '../types';
 
-const API_URL = 'https://8km68pyduh.execute-api.ap-south-1.amazonaws.com/latest?device_id=esp32_01';
+const API_URL = import.meta.env.VITE_API_URL;
 
 // Initial mock data to keep the graph full initially
 let sensorHistory: SensorData[] = Array.from({ length: 20 }, (_, i) => ({
